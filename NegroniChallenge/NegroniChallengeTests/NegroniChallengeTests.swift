@@ -1,15 +1,15 @@
 //
-//  InizioTests.swift
-//  InizioTests
+//  NegroniChallengeTests.swift
+//  NegroniChallengeTests
 //
-//  Created by Raimondo Giordano on 06/11/2019.
+//  Created by Raimondo Giordano on 12/11/2019.
 //  Copyright © 2019 Raimondo Giordano. All rights reserved.
 //
 
 import XCTest
-@testable import Inizio
+@testable import NegroniChallenge
 
-class InizioTests: XCTestCase {
+class NegroniChallengeTests: XCTestCase {
 
     override func setUp() {
         // Put setup code here. This method is called before the invocation of each test method in the class.

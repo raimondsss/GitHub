@@ -1,14 +1,14 @@
 //
-//  InizioUITests.swift
-//  InizioUITests
+//  NegroniChallengeUITests.swift
+//  NegroniChallengeUITests
 //
-//  Created by Raimondo Giordano on 06/11/2019.
+//  Created by Raimondo Giordano on 12/11/2019.
 //  Copyright © 2019 Raimondo Giordano. All rights reserved.
 //
 
 import XCTest
 
-class InizioUITests: XCTestCase {
+class NegroniChallengeUITests: XCTestCase {
 
     override func setUp() {
         // Put setup code here. This method is called before the invocation of each test method in the class.
