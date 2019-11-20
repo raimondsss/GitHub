@@ -22,10 +22,15 @@ class Class2: UIViewController {
     
     override func viewDidLoad() {
         
-        timer = Timer.scheduledTimer(timeInterval: 1,target:self,selector:#selector(self.displayYesterdaySteps),userInfo:nil, repeats:true)
+       /* timer = Timer.scheduledTimer(timeInterval: 1,target:self,selector:#selector(self.displayYesterdaySteps),userInfo:nil, repeats:true)*/
         
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        
+        timer = Timer.scheduledTimer(timeInterval: 1,target:self,selector:#selector(self.displayYesterdaySteps),userInfo:nil, repeats:true)
     }
 }
 
