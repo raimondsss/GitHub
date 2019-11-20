@@ -8,6 +8,7 @@
 
 import UIKit
 import CoreMotion
+import CoreData
 
 class ViewController: UIViewController {
     var raimondo = 0
@@ -17,10 +18,14 @@ class ViewController: UIViewController {
     
     
     @IBOutlet weak var label: UILabel!
-    
-    override func viewDidLoad() {
 
-        if raimondo == 1{
+    @IBAction func addViaggio(_ sender: Any) {
+        createAlert(title: "Trip", message: "Write your trip name:")
+    }
+        
+        override func viewDidLoad() {
+
+        if raimondo == 0{
             print("IF ok")
             label.isHidden = false
         
@@ -29,15 +34,33 @@ class ViewController: UIViewController {
             /*let storyboard = UIStoryboard(name: "Main", bundle: nil)
             let prova:Class2 = storyboard.instantiateViewController(identifier: "prova")*/
         }
-        
 
-        
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
     
 
+    func createAlert(title:String, message:String){
+        let alert = UIAlertController(title: title, message: message, preferredStyle: .alert)
+        alert.addAction(UIAlertAction(title: "Cancel", style: .cancel, handler: nil))
+
+        alert.addTextField(configurationHandler: { textField in
+            textField.placeholder = "Add trip"
+        })
+        alert.addAction(UIAlertAction(title: "Create", style: .default, handler: { action in
+
+            if let nameTrip = alert.textFields?.first?.text {
+                print("Your name: \(nameTrip)")
+            }
+            self.performSegueCustom()
+        }))
+
+        self.present(alert, animated: true)
+    }
     
+    func performSegueCustom(){
+         performSegue(withIdentifier: "ViaggioCreato", sender: self)
+    }
     
 
  /*   override func prepare(for segue: UIStoryboardSegue, sender: Any?) {

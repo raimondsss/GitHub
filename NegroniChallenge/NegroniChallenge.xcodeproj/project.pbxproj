@@ -18,6 +18,7 @@
 		C91B540E237AF01E00CD794C /* Class1.swift in Sources */ = {isa = PBXBuildFile; fileRef = C91B540D237AF01E00CD794C /* Class1.swift */; };
 		C91B5410237AF06F00CD794C /* Class2.swift in Sources */ = {isa = PBXBuildFile; fileRef = C91B540F237AF06F00CD794C /* Class2.swift */; };
 		C94A5039237D962F0014ABE0 /* Database.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C94A5037237D962F0014ABE0 /* Database.xcdatamodeld */; };
+		C9EA924A238318B900619E05 /* Trip+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9EA9249238318B900619E05 /* Trip+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		C91B540D237AF01E00CD794C /* Class1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Class1.swift; sourceTree = "<group>"; };
 		C91B540F237AF06F00CD794C /* Class2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Class2.swift; sourceTree = "<group>"; };
 		C94A5038237D962F0014ABE0 /* Database.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Database.xcdatamodel; sourceTree = "<group>"; };
+		C9EA9249238318B900619E05 /* Trip+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Trip+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 		C91B53CF237AE34900CD794C = {
 			isa = PBXGroup;
 			children = (
+				C9EA9249238318B900619E05 /* Trip+CoreDataProperties.swift */,
 				C91B53DA237AE34900CD794C /* NegroniChallenge */,
 				C91B53F1237AE34A00CD794C /* NegroniChallengeTests */,
 				C91B53FC237AE34A00CD794C /* NegroniChallengeUITests */,
@@ -227,6 +230,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9EA924A238318B900619E05 /* Trip+CoreDataProperties.swift in Sources */,
 				C91B53E0237AE34900CD794C /* ViewController.swift in Sources */,
 				C91B53DC237AE34900CD794C /* AppDelegate.swift in Sources */,
 				C91B540E237AF01E00CD794C /* Class1.swift in Sources */,
