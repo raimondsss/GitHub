@@ -14,7 +14,6 @@
 		C91B53E5237AE34A00CD794C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C91B53E4237AE34A00CD794C /* Assets.xcassets */; };
 		C91B53E8237AE34A00CD794C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C91B53E6237AE34A00CD794C /* LaunchScreen.storyboard */; };
 		C91B53F3237AE34A00CD794C /* NegroniChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C91B53F2237AE34A00CD794C /* NegroniChallengeTests.swift */; };
-		C91B53FE237AE34A00CD794C /* NegroniChallengeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C91B53FD237AE34A00CD794C /* NegroniChallengeUITests.swift */; };
 		C91B540C237AEAB600CD794C /* Trip.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C91B540B237AEAB600CD794C /* Trip.storyboard */; };
 		C91B540E237AF01E00CD794C /* Class1.swift in Sources */ = {isa = PBXBuildFile; fileRef = C91B540D237AF01E00CD794C /* Class1.swift */; };
 		C91B5410237AF06F00CD794C /* Class2.swift in Sources */ = {isa = PBXBuildFile; fileRef = C91B540F237AF06F00CD794C /* Class2.swift */; };
@@ -29,16 +28,10 @@
 			remoteGlobalIDString = C91B53D7237AE34900CD794C;
 			remoteInfo = NegroniChallenge;
 		};
-		C91B53FA237AE34A00CD794C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = C91B53D0237AE34900CD794C /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = C91B53D7237AE34900CD794C;
-			remoteInfo = NegroniChallenge;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		67AD5A5E237F361600DAAA57 /* NegroniChallengeUITests copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "NegroniChallengeUITests copy-Info.plist"; path = "/Users/chiarapellecchia/Documents/GitHub/GitHub/NegroniChallenge/NegroniChallengeUITests copy-Info.plist"; sourceTree = "<absolute>"; };
 		C91B53D8237AE34900CD794C /* NegroniChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NegroniChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C91B53DB237AE34900CD794C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C91B53DD237AE34900CD794C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -50,7 +43,6 @@
 		C91B53EE237AE34A00CD794C /* NegroniChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NegroniChallengeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C91B53F2237AE34A00CD794C /* NegroniChallengeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NegroniChallengeTests.swift; sourceTree = "<group>"; };
 		C91B53F4237AE34A00CD794C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C91B53F9237AE34A00CD794C /* NegroniChallengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NegroniChallengeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C91B53FD237AE34A00CD794C /* NegroniChallengeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NegroniChallengeUITests.swift; sourceTree = "<group>"; };
 		C91B53FF237AE34A00CD794C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C91B540B237AEAB600CD794C /* Trip.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Trip.storyboard; sourceTree = "<group>"; };
@@ -74,13 +66,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C91B53F6237AE34A00CD794C /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -91,6 +76,7 @@
 				C91B53F1237AE34A00CD794C /* NegroniChallengeTests */,
 				C91B53FC237AE34A00CD794C /* NegroniChallengeUITests */,
 				C91B53D9237AE34900CD794C /* Products */,
+				67AD5A5E237F361600DAAA57 /* NegroniChallengeUITests copy-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,7 +85,6 @@
 			children = (
 				C91B53D8237AE34900CD794C /* NegroniChallenge.app */,
 				C91B53EE237AE34A00CD794C /* NegroniChallengeTests.xctest */,
-				C91B53F9237AE34A00CD794C /* NegroniChallengeUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -178,24 +163,6 @@
 			productReference = C91B53EE237AE34A00CD794C /* NegroniChallengeTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		C91B53F8237AE34A00CD794C /* NegroniChallengeUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = C91B5408237AE34A00CD794C /* Build configuration list for PBXNativeTarget "NegroniChallengeUITests" */;
-			buildPhases = (
-				C91B53F5237AE34A00CD794C /* Sources */,
-				C91B53F6237AE34A00CD794C /* Frameworks */,
-				C91B53F7237AE34A00CD794C /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				C91B53FB237AE34A00CD794C /* PBXTargetDependency */,
-			);
-			name = NegroniChallengeUITests;
-			productName = NegroniChallengeUITests;
-			productReference = C91B53F9237AE34A00CD794C /* NegroniChallengeUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -210,10 +177,6 @@
 						CreatedOnToolsVersion = 11.2;
 					};
 					C91B53ED237AE34A00CD794C = {
-						CreatedOnToolsVersion = 11.2;
-						TestTargetID = C91B53D7237AE34900CD794C;
-					};
-					C91B53F8237AE34A00CD794C = {
 						CreatedOnToolsVersion = 11.2;
 						TestTargetID = C91B53D7237AE34900CD794C;
 					};
@@ -234,7 +197,6 @@
 			targets = (
 				C91B53D7237AE34900CD794C /* NegroniChallenge */,
 				C91B53ED237AE34A00CD794C /* NegroniChallengeTests */,
-				C91B53F8237AE34A00CD794C /* NegroniChallengeUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -252,13 +214,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		C91B53EC237AE34A00CD794C /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C91B53F7237AE34A00CD794C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -289,14 +244,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C91B53F5237AE34A00CD794C /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C91B53FE237AE34A00CD794C /* NegroniChallengeUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -304,11 +251,6 @@
 			isa = PBXTargetDependency;
 			target = C91B53D7237AE34900CD794C /* NegroniChallenge */;
 			targetProxy = C91B53EF237AE34A00CD794C /* PBXContainerItemProxy */;
-		};
-		C91B53FB237AE34A00CD794C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = C91B53D7237AE34900CD794C /* NegroniChallenge */;
-			targetProxy = C91B53FA237AE34A00CD794C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -451,8 +393,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 4V9Q2X8946;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = NegroniChallenge/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -469,8 +412,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 4V9Q2X8946;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = NegroniChallenge/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -490,7 +434,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4V9Q2X8946;
 				INFOPLIST_FILE = NegroniChallengeTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -512,7 +456,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4V9Q2X8946;
 				INFOPLIST_FILE = NegroniChallengeTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -523,46 +467,6 @@
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NegroniChallenge.app/NegroniChallenge";
-			};
-			name = Release;
-		};
-		C91B5409237AE34A00CD794C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 4V9Q2X8946;
-				INFOPLIST_FILE = NegroniChallengeUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = rai.NegroniChallengeUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = NegroniChallenge;
-			};
-			name = Debug;
-		};
-		C91B540A237AE34A00CD794C /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 4V9Q2X8946;
-				INFOPLIST_FILE = NegroniChallengeUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = rai.NegroniChallengeUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = NegroniChallenge;
 			};
 			name = Release;
 		};
@@ -592,15 +496,6 @@
 			buildConfigurations = (
 				C91B5406237AE34A00CD794C /* Debug */,
 				C91B5407237AE34A00CD794C /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		C91B5408237AE34A00CD794C /* Build configuration list for PBXNativeTarget "NegroniChallengeUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				C91B5409237AE34A00CD794C /* Debug */,
-				C91B540A237AE34A00CD794C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
