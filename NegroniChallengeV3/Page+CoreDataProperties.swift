@@ -2,7 +2,7 @@
 //  Page+CoreDataProperties.swift
 //  NegroniChallengeV3
 //
-//  Created by Chiara Pellecchia on 21/11/2019.
+//  Created by Chiara Pellecchia on 22/11/2019.
 //  Copyright © 2019 Chiara Pellecchia. All rights reserved.
 //
 //
@@ -17,9 +17,8 @@ extension Page {
         return NSFetchRequest<Page>(entityName: "Page")
     }
 
-    @NSManaged public var date: Date?
+    @NSManaged public var date: String?
     @NSManaged public var desc: String?
     @NSManaged public var photo: Data?
-    
 
 }

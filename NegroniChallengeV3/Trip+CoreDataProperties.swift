@@ -2,7 +2,7 @@
 //  Trip+CoreDataProperties.swift
 //  NegroniChallengeV3
 //
-//  Created by Chiara Pellecchia on 21/11/2019.
+//  Created by Chiara Pellecchia on 22/11/2019.
 //  Copyright © 2019 Chiara Pellecchia. All rights reserved.
 //
 //
@@ -17,7 +17,7 @@ extension Trip {
         return NSFetchRequest<Trip>(entityName: "Trip")
     }
 
-    @NSManaged public var creationData: Date?
+    @NSManaged public var creationData: String?
     @NSManaged public var id: Int16
     @NSManaged public var photo: Data?
     @NSManaged public var title: String?

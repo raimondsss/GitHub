@@ -24,7 +24,7 @@ class CoreDataController {
         self.context = application.persistentContainer.viewContext
     }
     
-    func addTrip(title: String, creationData: Date) {
+    func addTrip(title: String, creationData: String, photo: Data) {
             /*
                 Per creare un oggetto da inserire in memoria è necessario creare un riferimento all'Entity (NSEntityDescription) da cui si copierà la struttura di base
              */
@@ -50,7 +50,7 @@ class CoreDataController {
         }
     
     
-    func addPage(date: Date, desc: String) {
+    func addPage(date: String, desc: String, photo: Data ) {
             /*
                 Per creare un oggetto da inserire in memoria è necessario creare un riferimento all'Entity (NSEntityDescription) da cui si copierà la struttura di base
              */
